@@ -1,20 +1,15 @@
-libphonenumber
-==============
+# libphonenumber
 
-golang port of Google's libphonenumber
-
-[![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)](http://forthebadge.com)
+golang port of Google's libphonenumber. This is a fork of https://github.com/ttacon/libphonenumber to provide a more updated version of the library.
 
 [![Build Status](https://travis-ci.org/ttacon/libphonenumber.svg?branch=master)](https://travis-ci.org/ttacon/libphonenumber)
 [![GoDoc](https://godoc.org/github.com/ttacon/libphonenumber?status.png)](https://godoc.org/github.com/ttacon/libphonenumber)
 
-Status
-======
+# Status
 
 This library is fully stable and is used in production by several companies.
 
-Examples
-========
+# Examples
 
 Super simple to use.
 
@@ -32,6 +27,7 @@ formattedNum := libphonenumber.Format(num, libphonenumber.NATIONAL)
 ```
 
 ### To get the area code of a number
+
 ```go
 // Parse the number.
 num, err := libphonenumber.Parse("1234567890", "US")
