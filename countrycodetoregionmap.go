@@ -1,4 +1,4 @@
-package libphonenumber
+package golibphonenumber
 
 // TODO(ttacon): do we need to worry about load factor?
 

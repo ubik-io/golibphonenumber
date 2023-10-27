@@ -1,4 +1,4 @@
-package libphonenumber
+package golibphonenumber
 
 import "strconv"
 

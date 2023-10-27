@@ -15,7 +15,7 @@ It has these top-level messages:
 	PhoneMetadataCollection
 	PhoneNumber
 */
-package libphonenumber
+package golibphonenumber
 
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"

@@ -2,6 +2,10 @@
 
 ## 1.0.4
 
+- Fixed package name
+
+## 1.0.4
+
 - Bumped version because of a mistake in module path
 
 ## 1.0.3
