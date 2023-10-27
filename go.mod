@@ -1,4 +1,4 @@
-module ubik.io/golibphonenumber
+module ubik-io/golibphonenumber
 
 go 1.21.1
 
